@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyde Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+    
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="header-row">
+                
+                    <div class="header-logo">
+                        <img src="img/Logo.png" alt="">
+                    </div>
+                    <nav>
+                        <div class="menu">
+                            <div id="menuLicks">
+                                <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul class="header-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Product</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                            </div>
+                        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+                        </div>
+                    </nav>
+                    
+                    <div class="header-btn">
+                        <a href="#" onclick="show()" class="btn2"><span></span>  Contact Us</a>
+                    </div>
+                    
+            </div>
+            <div class="header-btn-content" id="btnContent">
+                <div class="btn-content-top">
+                    <span>Contact Us</span>
+                    <i style="cursor: pointer;" onclick="hide()" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="btn-content-bottom">
+                    <p>Give us a call or fill in the form below and we'll contact you. We endeavor to answer all inquiries within 24 hours on business days.</p>
+                    <a href="tell:01784637847"><i class="fa-solid fa-phone"></i> 01784637847</a>
+                    <a href="email:info@ekko.web"><i class="fa-regular fa-envelope"></i> info@ekko.web</a>
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Your message" id="" cols="30" rows="5"></textarea>
+                        <input class="submit-btn" type="submit" value="Sand Meggase">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- banner section -->
+    <section class="banner">
+        <div class="container">
+            <div class="b-content text-center">
+                <h1>Services</h1>
+                <p style="margin-top: 10px;">
+                    <a class="deactive" href="index.html">Home</a>
+                    <i style="color: #fff; font-size:18px;" class="fa-solid fa-angle-right"></i>
+                    <span class="active">Services</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+    <!-- Services section -->
+    <section class="services">
+        <div class="container">
+            <div class="row">
+                <div class="s-content">
+                    <div class="s-c-img">
+                        <img class="d-block" src="img/square3.jpg" alt="">
+                    </div>
+                    <div class="s-c-info">
+                        <h3>Digital Solutions</h3>
+                        <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet elit</p>
+                        <a href="#" class="s-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="s-content">
+                    <div class="s-c-img">
+                        <img class="d-block" src="img/square4.jpg" alt="">
+                    </div>
+                    <div class="s-c-info">
+                        <h3>Work Automation</h3>
+                        <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet elit</p>
+                        <a href="#" class="s-btn">Read More</a>
+                    </div>
+                </div>
+                <div class="s-content">
+                    <div class="s-c-img">
+                        <img class="d-block" src="img/square2.jpg" alt="">
+                    </div>
+                    <div class="s-c-info">
+                        <h3>Testing & Support</h3>
+                        <p>Dolores sit ipsum velit purus aliquet, massa fringilla leo orci. Lorem ipsum dolor sit amet elit</p>
+                        <a href="#" class="s-btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="padding-top: 60px;" class="text-center">
+                <div class="s-icon-box text-center">
+                    <i class="fa-brands fa-octopus-deploy"></i>
+                    <h4>Build anything</h4>
+                </div>
+                <div class="s-icon-box text-center">
+                    <i class="fa-solid fa-land-mine-on"></i>
+                    <h4>Fast leanding</h4>
+                </div>
+                <div class="s-icon-box text-center">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h4>Premium design</h4>
+                </div>
+                <div class="s-icon-box text-center">
+                    <i class="fa-brands fa-hive"></i>
+                    <h4>Block builder</h4>
+                </div>
+                <div class="s-icon-box text-center">
+                    <i class="fa-solid fa-gauge"></i>
+                    <h4>Enhanced speed</h4>
+                </div>
+                <div class="s-icon-box text-center">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <h4>Lifetime updates</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services section end -->
+    <!-- Development section -->
+    <section class="development">
+        <div class="container">
+            <div class="row">
+                <div class="develop-content">
+                    <h2>Development</h2>
+                    <p>Aliquam malesuada bibendum arcu vitae elementum curabitur vitae ven. Pellentesque pulvinar elementum habitant morbi tristique.</p>
+                    <ul class="list">
+                        <li><i class="fa-solid fa-check"></i>Give your website a name</li>
+                        <li><i class="fa-solid fa-check"></i>Add your unique content</li>
+                        <li><i class="fa-solid fa-check"></i>Add your stunning images</li>
+                    </ul>
+                    <ul class="list2">
+                        <li><i class="fa-sharp fa-solid fa-gear"></i> Development</li>
+                        <li><i class="fa-brands fa-superpowers"></i> Performance</li>
+                        <li><i class="fa-sharp fa-solid fa-chart-line"></i> Analytics</li>
+                    </ul>
+                </div>
+                <div class="develop-img">
+                    <img class="d-block" src="img/tab3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Development section end -->
+    <!-- content-box section -->
+    <section class="content-box-section">
+        <div class="container">
+            <div class="row">
+                <div class="s-icon-box">
+                    <i class="fa-brands fa-octopus-deploy"></i>
+                    <h3>Build anything</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vel, ipsam repellendus, perferendis quos dolore! Incidunt vel doloremque, velit itaque?</p>
+                </div>
+                <div class="s-icon-box">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h3>Unlock your creativity</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vel, ipsam repellendus, perferendis quos dolore! Incidunt vel doloremque, velit itaque?</p>
+                </div>
+                <div class="s-icon-box">
+                    <i class="fa-sharp fa-solid fa-award"></i>
+                    <h3>High-quality fonts</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vel, ipsam repellendus, perferendis quos dolore! Incidunt vel doloremque, velit itaque?</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="s-icon-box">
+                    <i class="fa-brands fa-hive"></i>
+                    <h3>Perfect grid system</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vel, ipsam repellendus, perferendis quos dolore! Incidunt vel doloremque, velit itaque?</p>
+                </div>
+                <div class="s-icon-box">
+                    <i class="fa-solid fa-diagram-project"></i>
+                    <h3>Premium design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vel, ipsam repellendus, perferendis quos dolore! Incidunt vel doloremque, velit itaque?</p>
+                </div>
+                <div class="s-icon-box">
+                    <i class="fa-solid fa-circle-half-stroke"></i>
+                    <h3>Lifetime updates</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis vel, ipsam repellendus, perferendis quos dolore! Incidunt vel doloremque, velit itaque?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content-box section end -->
+    <!-- Sponser section -->
+    <section style="border-top: 1px solid #eaeaea;" class="sponser">
+        <div class="container">
+            <div style="margin: 40px 0; padding:20px;" class="text-center">
+                <img src="img/asset 13.png">
+                <img src="img/asset 14.png" >
+                <img src="img/asset 15.png">
+                <img src="img/asset 16.png">
+                <img src="img/asset 17.png" >
+            </div>
+        </div>
+    </section>
+    <!-- Sponser section end -->
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="f-content-f">
+                    <a href="#"><h2>HYDE</h2></a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ad. Iure nisi asperiores laudantium suscipit quisquam tempore quidem minima iusto.</p>
+                </div>
+                <div class="f-content">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Get Started</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Others</h3>
+                    <ul>
+                        <li><a href="#">Terms of Serice</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Something goes here</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Following</h3>
+                    <p>Follow us on Social Media</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copy-right text-center">
+                <span>All Right reserve by  <i class="fa-regular fa-heart"></i>  MD ALI</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--- Javascript --->
+        <!-- for menu -->
+	  <script>
+		var menuLicks = document.getElementById("menuLicks");
+		function showMenu(){
+			menuLicks.style.transform = "scaleY(1)";
+			menuLicks.style.transition = ".9s";
+            menuLicks.style.transformOrigin = " top";
+			menuLicks.style.opacity = "1";
+		}
+		function hideMenu(){
+			menuLicks.style.transform = "scaleY(0)";
+            menuLicks.style.transformOrigin = " top";
+			menuLicks.style.transition = "1s";
+			menuLicks.style.opacity = "0";
+		}
+		
+	  </script>
+      <!-- for contact -->
+      <script>
+        var btnContent = document.getElementById("btnContent");
+		function show(){
+			btnContent.style.transform = "scaleX(1)";
+			btnContent.style.transition = ".9s";
+            btnContent.style.transformOrigin = " right";
+			btnContent.style.opacity = "1";
+		}
+		function hide(){
+			btnContent.style.transform = "scaleX(0)";
+            btnContent.style.transformOrigin = " right";
+			btnContent.style.transition = "1s";
+			btnContent.style.opacity = "0";
+		}
+
+      </script>
+    <!-- for timer -->
+    <script>
+        var countDownDate = new Date("Nov 16, 2022 00:00:00").getTime();
+        var x =setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+        }, 1000);
+
+        
+    </script>
+</body>
+</html>

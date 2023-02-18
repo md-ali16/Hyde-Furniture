@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyde Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="header-row">
+                
+                    <div class="header-logo">
+                        <img src="img/Logo.png" alt="">
+                    </div>
+                    <nav>
+                        <div class="menu">
+                            <div id="menuLicks">
+                                <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul class="header-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Product</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                            </div>
+                        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+                        </div>
+                    </nav>
+                    
+                    <div class="header-btn">
+                        <a href="#" onclick="show()" class="btn2"><span></span>  Contact Us</a>
+                    </div>
+                    
+            </div>
+            <div class="header-btn-content" id="btnContent">
+                <div class="btn-content-top">
+                    <span>Contact Us</span>
+                    <i style="cursor: pointer;" onclick="hide()" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="btn-content-bottom">
+                    <p>Give us a call or fill in the form below and we'll contact you. We endeavor to answer all inquiries within 24 hours on business days.</p>
+                    <a href="tell:01784637847"><i class="fa-solid fa-phone"></i> 01784637847</a>
+                    <a href="email:info@ekko.web"><i class="fa-regular fa-envelope"></i> info@ekko.web</a>
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Your message" id="" cols="30" rows="5"></textarea>
+                        <input class="submit-btn" type="submit" value="Sand Meggase">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- banner section -->
+    <section class="banner">
+        <div class="container">
+            <div class="b-content text-center">
+                <h1>About Us</h1>
+                <p style="margin-top: 10px;">
+                    <a class="deactive" href="index.html">Home</a>
+                    <i style="color: #fff; font-size:18px;" class="fa-solid fa-angle-right"></i>
+                    <span class="active"> About Us</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+    <!-- content-box section  -->
+    <section class="content-box">
+        <div class="container">
+            <div style="padding: 80px 0;" class="row">
+                <div class="icon-box text-center">
+                    <i class="fa-solid fa-arrow-pointer"></i>
+                    <h3>Easy setup</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>   
+                </div>
+                <div class="icon-box  text-center">
+                    <i class="fa-regular fa-hand-pointer"></i>
+                    <h3>Live editing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>   
+                </div>
+                <div class="icon-box  text-center">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Browser support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>   
+                </div>
+                <div class="icon-box  text-center">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    <h3>Speed performance</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content-box section end -->
+    <!-- content-text section -->
+    <section class="content-text">
+        <div class="container">
+            <div class="row">
+                <div class="text-d-left">
+                    <h2 style="margin-bottom: 20px;">We conceive and translate our clients dreams into reality.</h2>
+                    <p style="margin-bottom: 20px;">Cras mattis iudicium purus sit amet fermentum at nos hinc posthac, sitientis piros afros. Lorem ipsum dolor sit amet, consectetur adipisici elit, petierunt uti sibi.</p>
+                    <img class="d-block" src="img/a-text1.jpeg" alt="">
+                </div>
+                <div class="text-d-left">
+                    <img class="d-block" src="img/a-text.jpeg" alt="">
+                    <h2 style="margin-top: 20px;">We conceive and translate our clients dreams into reality.</h2>
+                    <p>Cras mattis iudicium purus sit amet fermentum at nos hinc posthac, sitientis piros afros. Lorem ipsum dolor sit amet, consectetur adipisici elit, petierunt uti sibi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content-text section end -->
+    <!-- Team section -->
+    <section class="team-section">
+        <div class="container">
+            <div class="title">
+                <h2 class="text-center">Meet the team</h2>
+                <h6 class="text-center">Get to know the people behind Intact. Our creative and technical team.</h6>
+            </div>
+            <div class="team-members row">
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="img/user.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Luke Jacads</h4>
+                        <h5>Marketing Manager</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui veritatis aspernatur velit.</p>
+                    </div>
+                    <div class="member-social d-flex">
+                        <div class="social-left">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="social-right">
+                            <a href="#"><i class="fa-solid fa-envelope"> </i><span>luke@hyde.com</span></a>
+                            <a href="#"><i class="fa-solid fa-phone"></i><span>+99 434 5432</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="img/user2.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Sara Grant</h4>
+                        <h5>Chief Executive</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui veritatis aspernatur velit.</p>
+                    </div>
+                    <div class="member-social d-flex">
+                        <div class="social-left">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="social-right">
+                            <a href="#"><i class="fa-solid fa-envelope"> </i><span>luke@hyde.com</span></a>
+                            <a href="#"><i class="fa-solid fa-phone"></i><span>+99 434 5432</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-img">
+                        <img src="img/user3.jpeg" alt="">
+                    </div>
+                    <div class="member-info">
+                        <h4>Leroy Bell</h4>
+                        <h5>Support Technician</h5>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui veritatis aspernatur velit.</p>
+                    </div>
+                    <div class="member-social d-flex">
+                        <div class="social-left">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="social-right">
+                            <a href="#"><i class="fa-solid fa-envelope"> </i><span>luke@hyde.com</span></a>
+                            <a href="#"><i class="fa-solid fa-phone"></i><span>+99 434 5432</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team section end -->
+    <!-- Subcribe section -->
+    <section class="subcribe-section">
+        <div class="container">
+            <div class="subcribe-content text-center">
+                <h2 >Hyde is a fully packed practical tool of premium built
+                    and design. Let your creativity loose and start
+                    building your website now.</h2>
+                <form>
+                    <input type="text" placeholder="Enter Your e-mail">
+                    <button>Subcribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Subcribe section end -->
+    
+    <!-- Sponser section -->
+    <section style="border-top: 1px solid #eaeaea;" class="sponser">
+        <div class="container">
+            <div style="margin: 40px 0; padding:20px 0px;" class="text-center">
+                <img src="img/asset 13.png">
+                <img src="img/asset 14.png" >
+                <img src="img/asset 15.png">
+                <img src="img/asset 16.png">
+                <img src="img/asset 17.png" >
+            </div>
+        </div>
+    </section>
+    <!-- Sponser section end -->
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="f-content-f">
+                    <a href="#"><h2>HYDE</h2></a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ad. Iure nisi asperiores laudantium suscipit quisquam tempore quidem minima iusto.</p>
+                </div>
+                <div class="f-content">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Get Started</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Others</h3>
+                    <ul>
+                        <li><a href="#">Terms of Serice</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Something goes here</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Following</h3>
+                    <p>Follow us on Social Media</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copy-right text-center">
+                <span>All Right reserve by  <i class="fa-regular fa-heart"></i>  MD ALI</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--- Javascript --->
+        <!-- for menu -->
+	  <script>
+		var menuLicks = document.getElementById("menuLicks");
+		function showMenu(){
+			menuLicks.style.transform = "scaleY(1)";
+			menuLicks.style.transition = ".9s";
+            menuLicks.style.transformOrigin = " top";
+			menuLicks.style.opacity = "1";
+		}
+		function hideMenu(){
+			menuLicks.style.transform = "scaleY(0)";
+            menuLicks.style.transformOrigin = " top";
+			menuLicks.style.transition = "1s";
+			menuLicks.style.opacity = "0";
+		}
+		
+	  </script>
+      <!-- for contact -->
+      <script>
+        var btnContent = document.getElementById("btnContent");
+		function show(){
+			btnContent.style.transform = "scaleX(1)";
+			btnContent.style.transition = ".9s";
+            btnContent.style.transformOrigin = " right";
+			btnContent.style.opacity = "1";
+		}
+		function hide(){
+			btnContent.style.transform = "scaleX(0)";
+            btnContent.style.transformOrigin = " right";
+			btnContent.style.transition = "1s";
+			btnContent.style.opacity = "0";
+		}
+
+      </script>
+    <!-- for timer -->
+    <script>
+        var countDownDate = new Date("Nov 16, 2022 00:00:00").getTime();
+        var x =setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+        }, 1000);
+
+        
+    </script>
+</body>
+</html>

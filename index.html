@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyde Furniture</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="header-row">
+
+                <div class="header-logo">
+                    <img src="img/Logo.png" alt="">
+                </div>
+                <nav>
+                    <div class="menu">
+                        <div id="menuLicks">
+                            <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul class="header-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Product</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                        </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+
+                    </div>
+                </nav>
+
+                <div class="header-btn">
+                    <a href="#" onclick="show()" class="btn2"><span></span> Contact Us</a>
+                </div>
+
+            </div>
+            <div class="header-btn-content" id="btnContent">
+                <div class="btn-content-top">
+                    <span>Contact Us</span>
+                    <i style="cursor: pointer;" onclick="hide()" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="btn-content-bottom">
+                    <p>Give us a call or fill in the form below and we'll contact you. We endeavor to answer all
+                        inquiries within 24 hours on business days.</p>
+                    <a href="tell:01784637847"><i class="fa-solid fa-phone"></i> 01784637847</a>
+                    <a href="email:info@ekko.web"><i class="fa-regular fa-envelope"></i> info@ekko.web</a>
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Your message" id="" cols="30" rows="5"></textarea>
+                        <input class="submit-btn" type="submit" value="Sand Meggase">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- slider section -->
+    <section class="slider">
+        <div class="container">
+            <div class="">
+                <div class="slider-content">
+                    <h2>Furniture fit for the<br>
+                        modern urban life.<br>
+                        Start shopping.</h2>
+                    <h6 style="margin-bottom: 50px; margin-top: 20px;">
+                        Hady is a fully packed practical<br>
+                        tool of premium built and design
+                    </h6>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- slider section end -->
+    <!-- About section -->
+    <section class="about">
+        <div class="container">
+            <h2 class="text-center">Reasons to shop with us</h2>
+            <h6 class="text-center">Dictum varius duis at consectetur lorem donec. Nisi lacus sed viverra<br>
+                tellus in hac. Fusce id velit ut tortor pretium viverra.</h6>
+            <div class="row">
+                <div class="icon-box">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>30 Days returns</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>
+                </div>
+                <div class="icon-box box">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>Same day delivery</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>
+                </div>
+                <div class="icon-box box">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>Secure checkout</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>
+                </div>
+                <div class="icon-box box">
+                    <i class="fa-regular fa-clock"></i>
+                    <h3>Fast customer support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, soluta.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+    <!-- Featured products section -->
+    <section class="Featured-products">
+        <div class="container">
+            <h2 class="text-center">Featured products</h2>
+            <h6 class="text-center">Classic furniture, lighting and decoration collections. <br>
+                Proudly designed for everyday living.</h6>
+            <div style="margin-top: 40px;" class="row">
+                <div class="products-box">
+                    <img src="img/asset 4.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Bolero Sofa</a>
+                            <span class="d-block">$450.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Bedroom,</a>
+                                <a href="#">Sofa</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-box">
+                    <img src="img/asset 5.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Modena Sofa</a>
+                            <span class="d-block">$450.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Bedroom,</a>
+                                <a href="#">Sofa</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-box">
+                    <img src="img/asset 6.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Venus Sofa</a>
+                            <span class="d-block">$450.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Living</a>
+                                <a href="#">Sofa</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Featured products section end -->
+    <!-- Description products section -->
+    <section class="description">
+        <div class="container">
+            <div class="row">
+                <div class="blank"></div>
+                <div class="d-content">
+                    <h2>New furniture
+                        collection</h2>
+                    <p>Dictum varius duis at consectetur lorem donec. Nisi lacus sed viverra tellus in hac. Fusce id
+                        velit ut tortor pretium viverra suspendisse potenti. Ac orci phasellus egestas tellus.</p>
+                    <a href="#" class="btn">DISCOVER MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Description products section end -->
+
+    <!-- Featured products2 section -->
+    <section class="Featured-products">
+        <div class="container">
+            <h2 class="text-center">Popular collections</h2>
+            <h6 class="text-center">Classic furniture, lighting and decoration collections. <br>
+                Proudly designed for everyday living.</h6>
+            <div style="margin-top: 40px;" class="row">
+                <div class="products-box">
+                    <img src="img/asset 7.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Toulouse</a>
+                            <span class="d-block">$225.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Chairs,</a>
+                                <a href="#">Living</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-box">
+                    <img src="img/asset 8.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Siviglia</a>
+                            <span class="d-block">$625.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Chairs,</a>
+                                <a href="#">Living</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-box">
+                    <img src="img/asset 9.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Living</a>
+                            <span class="d-block">$500.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Chairs</a>
+                                <a href="#">Living</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="products-box">
+                    <img src="img/asset 10.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Tosca</a>
+                            <span class="d-block">$450.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Chairs</a>
+                                <a href="#">Living</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-box">
+                    <img src="img/asset 11.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Charles</a>
+                            <span class="d-block">$425.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Chairs</a>
+                                <a href="#">Dining</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="products-box">
+                    <img src="img/asset 12.jpeg" alt="">
+                    <div class="products-details">
+                        <div class="p-top d-flex">
+                            <a class="d-block" href="#">Toledo</a>
+                            <span class="d-block">$550.00</span>
+                        </div>
+                        <div class="p-bottom d-flex">
+                            <span class="d-block">
+                                <a href="#">Chairs</a>
+                                <a href="#">Dining</a>
+                            </span>
+                            <span class="d-block">
+                                <a class="p-cart-link" href="#"> Add to cart</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Featured products section2 end -->
+    <!-- Urban section -->
+    <section class="urban">
+        <div class="container">
+            <div class="urban-content">
+                <div class="urban-item">
+                    <h2>Urban life furniture</h2>
+                    <p>Sit amet porttitor eget dolor morbi non arcu risus quis. <br> Morbi blandit cursus risus at
+                        ultrices mi. Dignissim cras tincidunt.</p>
+                </div>
+                <div class="launch-time">
+                    <div>
+                        <p id="days">00</p>
+                        <span>Days</span>
+                    </div>
+                    <div>
+                        <p id="hours">00</p>
+                        <span>Hours</span>
+                    </div>
+                    <div>
+                        <p id="minutes">00</p>
+                        <span>Minutes</span>
+                    </div>
+                    <div>
+                        <p id="seconds">00</p>
+                        <span>Seconds</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+    <!-- Urban section end -->
+    <!-- About text section -->
+    <section class="a-text-section">
+        <div class="container">
+            <div class="a-text text-center">
+                <h2>HADY is a fully packed practical tool of premium built and design.</h2>
+                <a href="#" class="btn">PURCHASE HADY</a>
+            </div>
+        </div>
+    </section>
+    <!-- About text section end -->
+    <!-- Sponser section -->
+    <section style="border-top: 1px solid #eaeaea;" class="sponser">
+        <div class="container">
+            <div style="margin: 40px 0; padding:20px;" class="text-center">
+                <img src="img/asset 13.png">
+                <img src="img/asset 14.png">
+                <img src="img/asset 15.png">
+                <img src="img/asset 16.png">
+                <img src="img/asset 17.png">
+            </div>
+        </div>
+    </section>
+    <!-- Sponser section end -->
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="f-content-f">
+                    <a href="#">
+                        <h2>HYDE</h2>
+                    </a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ad. Iure nisi asperiores
+                        laudantium suscipit quisquam tempore quidem minima iusto.</p>
+                </div>
+                <div class="f-content">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Get Started</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Others</h3>
+                    <ul>
+                        <li><a href="#">Terms of Serice</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Something goes here</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Following</h3>
+                    <p>Follow us on Social Media</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copy-right text-center">
+                <span>All Right reserve by <i class="fa-regular fa-heart"></i> MD ALI</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--- Javascript --->
+    <!-- for menu -->
+    <script>
+        var menuLicks = document.getElementById("menuLicks");
+        function showMenu() {
+            menuLicks.style.transform = "scaleY(1)";
+            menuLicks.style.transition = ".9s";
+            menuLicks.style.transformOrigin = " top";
+            menuLicks.style.opacity = "1";
+        }
+        function hideMenu() {
+            menuLicks.style.transform = "scaleY(0)";
+            menuLicks.style.transformOrigin = " top";
+            menuLicks.style.transition = "1s";
+            menuLicks.style.opacity = "0";
+        }
+
+    </script>
+    <!-- for contact -->
+    <script>
+        var btnContent = document.getElementById("btnContent");
+        function show() {
+            btnContent.style.transform = "scaleX(1)";
+            btnContent.style.transition = ".9s";
+            btnContent.style.transformOrigin = " right";
+            btnContent.style.opacity = "1";
+        }
+        function hide() {
+            btnContent.style.transform = "scaleX(0)";
+            btnContent.style.transformOrigin = " right";
+            btnContent.style.transition = "1s";
+            btnContent.style.opacity = "0";
+        }
+
+    </script>
+    <!-- for timer -->
+    <script>
+        var countDownDate = new Date("Nov 16, 2023 00:00:00").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+        }, 1000);
+
+
+    </script>
+</body>
+
+</html>

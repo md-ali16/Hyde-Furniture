@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyde Furniture</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+    
+</head>
+<body>
+    <!-- header section -->
+    <header>
+        <div class="container">
+            <div class="header-row">
+                
+                    <div class="header-logo">
+                        <img src="img/Logo.png" alt="">
+                    </div>
+                    <nav>
+                        <div class="menu">
+                            <div id="menuLicks">
+                                <i class="fa fa-times" onclick="hideMenu()"></i>
+                            <ul class="header-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="services.html">Services</a></li>
+                                <li><a href="products.html">Product</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                            </ul>
+                            </div>
+                        <i class="fa fa-bars"  onclick="showMenu()"></i>
+
+                        </div>
+                    </nav>
+                    
+                    <div class="header-btn">
+                        <a href="#" onclick="show()" class="btn2"><span></span>  Contact Us</a>
+                    </div>
+                    
+            </div>
+            <div class="header-btn-content" id="btnContent">
+                <div class="btn-content-top">
+                    <span>Contact Us</span>
+                    <i style="cursor: pointer;" onclick="hide()" class="fa-solid fa-xmark"></i>
+                </div>
+                <div class="btn-content-bottom">
+                    <p>Give us a call or fill in the form below and we'll contact you. We endeavor to answer all inquiries within 24 hours on business days.</p>
+                    <a href="tell:01784637847"><i class="fa-solid fa-phone"></i> 01784637847</a>
+                    <a href="email:info@ekko.web"><i class="fa-regular fa-envelope"></i> info@ekko.web</a>
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea placeholder="Your message" id="" cols="30" rows="5"></textarea>
+                        <input class="submit-btn" type="submit" value="Sand Meggase">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header section end -->
+    <!-- banner section -->
+    <section class="b-banner">
+        <div class="container">
+            <div class="row">
+                <div class="b-banner-c text-center">
+                    <h2>250</h2>
+                    <p>Successful projects</p>
+                </div>
+                <div class="b-banner-c text-center">
+                    <h2>10,000</h2>
+                    <p>Monthly visitors</p>
+                </div>
+                <div class="b-banner-c text-center">
+                    <h2>500</h2>
+                    <p>Happy customers</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+    <!-- content section  -->
+    <section class="blog-contetn">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Articles you might like</h2>
+                <h6>Explore our blog for insightful articles, personal reflections and ideas that <br> inspire action on the topics you care about.</h6>
+            </div>
+            <div class="row">
+                <div class="blog-content-item">
+                    <img src="img/blogimg.jpg" alt="" class="d-block">
+                    <h3>Satisfaction guaranteed</h3>
+                    <span><i class="fa-regular fa-clock"></i> February 3, 2022</span>
+                    <p>Turpis massa sed elementum tempus egestas sed sed. Tristique senectus et netus et. Nibh mauris cursus mattis molestie a iaculis at.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="blog-content-item">
+                    <img src="img/blogimg2.jpg" alt="" class="d-block">
+                    <h3>Committed to quality</h3>
+                    <span><i class="fa-regular fa-clock"></i> April 13, 2022</span>
+                    <p>Varius quam quisque id diam vel quam elementum pulvinar. Consectetur adipiscing elit ut aliquam purus sit amet luctus.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                <div class="blog-content-item">
+                    <img src="img/blogimg3.jpg" alt="" class="d-block">
+                    <h3>Fast response to requests</h3>
+                    <span><i class="fa-regular fa-clock"></i> Jun 8, 2022</span>
+                    <p>Ornare aenean euismod elementum nisi. Quis commodo odio aenean sed. Urna condimentum mattis.</p>
+                    <a href="#">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content section end -->
+    <!-- Map section  -->
+    <section class="map-section">
+        <div class="row">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470024.1651512333!2d91.1334318369368!3d23.021429917662587!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37536821ff0c2e39%3A0xf094eed60ba43331!2sFeni%20District!5e0!3m2!1sen!2sbd!4v1663087688058!5m2!1sen!2sbd" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contact-form">
+                <h2 style="font-weight: 300;">Ready to get <br> started? <br> Contact us!</h2>
+                <p>Give us a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.</p>
+                <form>
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                    <input type="email" placeholder="Your Message">
+                    <a href="#">send message</a>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Map section end -->
+    <!-- Sponser section -->
+    <section style="border-top: 1px solid #eaeaea;" class="sponser">
+        <div class="container">
+            <div style="margin: 40px 0; padding:20px;" class="text-center">
+                <img src="img/asset 13.png">
+                <img src="img/asset 14.png" >
+                <img src="img/asset 15.png">
+                <img src="img/asset 16.png">
+                <img src="img/asset 17.png" >
+            </div>
+        </div>
+    </section>
+    <!-- Sponser section end -->
+    <!-- Footer section -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="f-content-f">
+                    <a href="#"><h2>HYDE</h2></a>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, ad. Iure nisi asperiores laudantium suscipit quisquam tempore quidem minima iusto.</p>
+                </div>
+                <div class="f-content">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Get Started</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Others</h3>
+                    <ul>
+                        <li><a href="#">Terms of Serice</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Something goes here</a></li>
+                        <li><a href="#">Protfolio</a></li>
+                        <li><a href="#">Carporate</a></li>
+                    </ul>
+                </div>
+                <div class="f-content">
+                    <h3>Following</h3>
+                    <p>Follow us on Social Media</p>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                </div>
+            </div>
+            <div class="copy-right text-center">
+                <span>All Right reserve by  <i class="fa-regular fa-heart"></i>  MD ALI</span>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer section end -->
+
+    <!--- Javascript --->
+        <!-- for menu -->
+	  <script>
+		var menuLicks = document.getElementById("menuLicks");
+		function showMenu(){
+			menuLicks.style.transform = "scaleY(1)";
+			menuLicks.style.transition = ".9s";
+            menuLicks.style.transformOrigin = " top";
+			menuLicks.style.opacity = "1";
+		}
+		function hideMenu(){
+			menuLicks.style.transform = "scaleY(0)";
+            menuLicks.style.transformOrigin = " top";
+			menuLicks.style.transition = "1s";
+			menuLicks.style.opacity = "0";
+		}
+		
+	  </script>
+      <!-- for contact -->
+      <script>
+        var btnContent = document.getElementById("btnContent");
+		function show(){
+			btnContent.style.transform = "scaleX(1)";
+			btnContent.style.transition = ".9s";
+            btnContent.style.transformOrigin = " right";
+			btnContent.style.opacity = "1";
+		}
+		function hide(){
+			btnContent.style.transform = "scaleX(0)";
+            btnContent.style.transformOrigin = " right";
+			btnContent.style.transition = "1s";
+			btnContent.style.opacity = "0";
+		}
+
+      </script>
+    <!-- for timer -->
+    <script>
+        var countDownDate = new Date("Nov 16, 2022 00:00:00").getTime();
+        var x =setInterval(function(){
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days;
+            document.getElementById("hours").innerHTML = hours;
+            document.getElementById("minutes").innerHTML = minutes;
+            document.getElementById("seconds").innerHTML = seconds;
+        }, 1000);
+
+        
+    </script>
+</body>
+</html>
