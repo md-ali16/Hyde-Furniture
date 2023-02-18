@@ -1342,6 +1342,10 @@ footer .row {
     .f-content ul li a {
         font-size: 10px;
     }
+
+    .subcribe-section {
+        padding: 50px 0;
+    }
 }
 
 /* Responsive css end */
